@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Velora — Nike Style Clone</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">VELORA</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link fw-semibold" href="men.html">Men</a></li>
+        <li class="nav-item"><a class="nav-link fw-semibold" href="women.html">Women</a></li>
+        <li class="nav-item"><a class="nav-link fw-semibold" href="kids.html">Kids</a></li>
+        <li class="nav-item"><a class="nav-link fw-semibold" href="new.html">New</a></li>
+        <li class="nav-item ms-lg-3">
+          <button class="btn btn-dark fw-bold">Cart (0)</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO SLIDER -->
+<section>
+  <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+    </div>
+
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <img src="https://images.unsplash.com/photo-1528701800489-20be3c1ea9c0?auto=format&fit=crop&w=1600&q=80" class="d-block w-100" alt="Sneaker 1">
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="fw-bold">Step Into Power</h2>
+          <p>Premium sneakers for modern street culture.</p>
+          <a href="#" class="btn btn-light btn-lg fw-bold">Shop Now</a>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=1600&q=80" class="d-block w-100" alt="Sneaker 2">
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="fw-bold">Urban Motion</h2>
+          <p>Every step counts. Move with style.</p>
+          <a href="#" class="btn btn-light btn-lg fw-bold">Explore</a>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1600&q=80" class="d-block w-100" alt="Sneaker 3">
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="fw-bold">Street Precision</h2>
+          <p>Minimal design. Maximum impact.</p>
+          <a href="#" class="btn btn-light btn-lg fw-bold">View Collection</a>
+        </div>
+      </div>
+
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+
+<!-- FEATURED PRODUCTS -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="fw-bold text-center mb-4">Featured Sneakers</h2>
+
+    <div class="row g-4">
+
+      <div class="col-sm-6 col-lg-3">
+        <div class="card product-card border-0 shadow-sm">
+          <img src="https://images.unsplash.com/photo-1585386959984-a415522a0c3f?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Velora Sneaker 1">
+          <div class="card-body text-center">
+            <h6 class="fw-bold">Velocity Runner</h6>
+            <p class="text-muted">$140</p>
+            <button class="btn btn-dark btn-sm">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-lg-3">
+        <div class="card product-card border-0 shadow-sm">
+          <img src="https://images.unsplash.com/photo-1585386959984-8bcd2a1b4e38?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Velora Sneaker 2">
+          <div class="card-body text-center">
+            <h6 class="fw-bold">Stride Elite</h6>
+            <p class="text-muted">$160</p>
+            <button class="btn btn-dark btn-sm">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-lg-3">
+        <div class="card product-card border-0 shadow-sm">
+          <img src="https://images.unsplash.com/photo-1585386959984-6f9c0929180a?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Velora Sneaker 3">
+          <div class="card-body text-center">
+            <h6 class="fw-bold">Urban Pulse</h6>
+            <p class="text-muted">$130</p>
+            <button class="btn btn-dark btn-sm">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-lg-3">
+        <div class="card product-card border-0 shadow-sm">
+          <img src="https://images.unsplash.com/photo-1585386959984-5c7e6f8e8a2a?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Velora Sneaker 4">
+          <div class="card-body text-center">
+            <h6 class="fw-bold">Alpha Boost</h6>
+            <p class="text-muted">$150</p>
+            <button class="btn btn-dark btn-sm">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="bg-white py-5 text-center">
+  <div class="container">
+    <h3 class="fw-bold">Join the Velora Circle</h3>
+    <p class="text-muted mb-3">Be the first to know about new drops.</p>
+    <div class="row justify-content-center">
+      <div class="col-md-4">
+        <input type="email" class="form-control mb-2" placeholder="Your email here">
+        <button class="btn btn-dark w-100 fw-bold">Subscribe</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center py-4">
+  <div class="container">
+    <h5 class="fw-bold">VELORA</h5>
+    <small>© 2026 Velora. All Rights Reserved</small>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
+
+

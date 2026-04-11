@@ -1,0 +1,33 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* CAROUSEL CAPTION */
+.carousel-caption {
+  bottom: 25%;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+}
+.carousel-caption h2 {
+  font-size: 3rem;
+}
+.carousel-caption p {
+  font-size: 1.25rem;
+}
+.carousel-caption .btn {
+  padding: 0.75rem 2rem;
+  font-size: 1.1rem;
+}
+
+/* PRODUCT CARD HOVER */
+.product-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+.product-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+.card img {
+  height: 250px;
+  object-fit: cover;
+}
