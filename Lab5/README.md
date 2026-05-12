@@ -36,32 +36,7 @@ A complete student management system built with PHP and MySQL featuring full CRU
 | CSS3 | Styling & responsive design |
 | PDO | Database connection |
 
-## 📁 Folder Structure
-Lab5/
-├── config/
-│ └── database.php # Database configuration
-├── includes/
-│ ├── auth.php # Authentication functions
-│ └── functions.php # Helper functions
-├── assets/
-│ └── css/
-│ └── style.css # Main stylesheet
-├── students/
-│ ├── list.php # View all students
-│ ├── add.php # Add new student
-│ ├── view.php # View student details
-│ ├── edit.php # Edit student
-│ └── delete.php # Delete student
-├── reports/
-│ └── index.php # Reports page
-├── settings/
-│ └── profile.php # User profile
-├── database/
-│ └── schema.sql # Database schema
-├── login.php # Login page
-├── logout.php # Logout handler
-├── dashboard.php # Main dashboard
-└── index.php # Entry point
+
 
 ## Demo Video
 -  https://drive.google.com/file/d/1co0cXPGu0881m45Ep_SRILlCy1z7wHpt/view?usp=sharing
